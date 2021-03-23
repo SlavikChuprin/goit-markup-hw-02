@@ -1,0 +1,86 @@
+/* background: #FFFFFF;
+color WEB, font header active, background btn: #2196F3;
+color STUDIO, HERO, adress  #000000;
+color font header still, h2,h3: #212121;
+color tel.header, p: #757575;
+color email, tel. footer: rgba(255, 255, 255, 0.6); */
+
+
+/* Main */
+
+:root {
+--background-color: #ffffff;
+--fill: #2196F3;;
+--main-text:#757575;
+--spacial-text: #000000;
+--text-h:  #212121 ;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+
+font-weight: 400;
+letter-spacing: 0.03em;
+
+color: var(--main-text);
+background-color: var(--background-color);
+}
+
+a {
+    font-family: inherit;
+    text-decoration: none;
+
+    color: var(--);
+}
+
+a:hover,
+a:focus {
+    
+    color: var(--fill);
+}
+
+.btn-serves-reserved {
+ 
+background-color: var(--fill);
+} 
+
+/* Logo */
+
+.logo {
+font-family: 'Raleway', sans-serif ;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--spacial-text);
+}
+
+.logo span {
+
+    color: var(--fill);
+}
+
+/* Header */
+
+.current-page {
+    color: var(--fill);
+}
+
+
+
+/* Footer */
+
+address {
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+
+/* color: var(--background-color); */
+
+}
+
+.contacts a {
+
+color: rgba(255, 255, 255, 0.6);
+}
