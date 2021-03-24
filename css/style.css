@@ -10,7 +10,8 @@ color email, tel. footer: rgba(255, 255, 255, 0.6); */
 
 :root {
     --background-color: #ffffff;
-    --fill: #2196F3;;
+    --background-secondary: #2F303A;
+    --fill: #2196F3;
     --main-text:#757575;
     --spacial-text: #000000;
     --text-h:  #212121;
@@ -44,7 +45,6 @@ a:focus {
 
 li {
     list-style-type: none;
-
 }
 
 button {
@@ -73,8 +73,13 @@ a.logo {
     color: var(--fill);
 }
 
-.tel-header {
-    color: var;
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--main-text);
 }
 
 nav a {
@@ -96,9 +101,12 @@ h1 {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-/* color: var(--background-color); */
+    color: var(--background-color);
 }
-
+.hero, 
+footer{
+    background-color: var(--background-secondary);
+}
 
 .btn-serves-reserved {
     font-family: inherit;
@@ -147,6 +155,9 @@ h2 {
 }
 
 /* OUR TEAM  */
+.our-team-section {
+    background-color: var(--background-btn-still);
+}
 
 .our-team-list h3 {
 
@@ -177,7 +188,7 @@ address {
     font-size: 14px;
     line-height: 1.71;
 
-/* color: var(--background-color); */
+    color: var(--background-color);
 }
 
 .contacts a {
